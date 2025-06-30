@@ -1,0 +1,19 @@
+.display {
+  background-color: #2e2e3e;
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.expression {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.result {
+  color: #00e676;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
