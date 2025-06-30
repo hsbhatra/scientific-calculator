@@ -29,3 +29,19 @@
   padding: 5px 0;
   border-bottom: 1px solid #444;
 }
+
+.clearBtn {
+  margin-top: 12px;
+  padding: 6px 14px;
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clearBtn:hover {
+  background-color: #e53935;
+}

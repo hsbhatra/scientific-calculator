@@ -62,6 +62,10 @@ function App() {
     }
   };
 
+  const clearHistory = () => {
+    setHistory([]);
+    localStorage.removeItem('calc-history');
+  };
 
   return (
     <div className={styles.calculator}>
@@ -81,7 +85,7 @@ function App() {
         ))}
       </div>
       
-      <History history={history} />
+      <History history={history} clearHistory={clearHistory} />
     </div>
   );
 }
