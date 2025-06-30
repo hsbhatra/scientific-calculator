@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Display from './components/Display';
 import Button from './components/Button';
+import History from './components/History'
 import styles from './styles/App.module.css';
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           />
         ))}
       </div>
+      <History history={history} />
     </div>
   );
 }
