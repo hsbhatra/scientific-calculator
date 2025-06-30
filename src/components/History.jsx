@@ -10,7 +10,7 @@ const History = ({ history = [] }) => {
         <p className={styles.empty}>No previous calculations</p>
       ) : (
         <ul className={styles.list}>
-          {history.map((entry, index) => (
+          {[...history].reverse().map((entry, index) => (
             <li key={index} className={styles.item}>
               {entry}
             </li>
