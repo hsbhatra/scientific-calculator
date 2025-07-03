@@ -18,7 +18,7 @@ function App() {
   // List of all buttons to render in calculator
   const buttons = [
     'sin(', 'cos(', 'tan(', 'log(',
-    '√(', 'π', 'e', ')',
+    '√(', 'π', 'e', '(', ')',
     '7', '8', '9', '/',
     '4', '5', '6', '*',
     '1', '2', '3', '-',
